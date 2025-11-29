@@ -64,3 +64,6 @@ VALUES (
 
 SELECT * FROM tb_usuario;
 SELECT * FROM tb_anotacao;
+
+ALTER TABLE tb_anotacao 
+ADD finalizada BOOL NULL;
