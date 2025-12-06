@@ -11,7 +11,6 @@ const sequelize = new Sequelize(
     dbName,
     dbUser,
     dbSenha,
-    dbHost, 
     {
         dialect: "mysql",
         host: dbHost,
